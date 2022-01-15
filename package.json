@@ -4,8 +4,12 @@
   "private": true,
   "engines": {
     "node": "14.16.1",
-    "npm":"8.3.1"
-  },"overrides": {
+    "npm": "8.3.1"
+  },
+  "overrides": {
+    "mini-css-extract-plugin": "2.4.5"
+  },
+  "resolutions": {
     "mini-css-extract-plugin": "2.4.5"
   },
   "dependencies": {
@@ -41,5 +45,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "mini-css-extract-plugin": "2.4.5"
   }
 }
