@@ -122,7 +122,7 @@ function Register() {
               <a
                 className="login-link"
                 // onClick={navigate("/login")}
-                href="http://localhost:3000/login"
+                href="https://login-signup-reactjs2.herokuapp.com/login"
               >
                 {" "}
                 LOGIN{" "}
